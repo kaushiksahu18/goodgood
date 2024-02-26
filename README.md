@@ -1,5 +1,6 @@
 # Test Project
 
+[live link](https://good-good.netlify.app/)
 
 ## for dev
 ```
