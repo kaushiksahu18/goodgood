@@ -226,7 +226,7 @@ export function HomeMainItem({
   const tagLogo: string[] = [dimond, trophicup];
 
   return (
-    <div mkey={mkey} className="flex flex-col overflow-hidden w-full h-[20vw]">
+    <div id={String(mkey)} className="flex flex-col overflow-hidden w-full h-[20vw]">
       {data.tag && (
         <div className="bg-orange-500 text-white rounded-r-md w-fit p-[0.4vw] flex gap-2">
           <img
@@ -295,7 +295,7 @@ export function RelatedCards({
 }) {
   return (
     <div
-      mkey={mkey}
+      id={String(mkey)}
       className="w-[90vw] flex flex-col gap-[0.8vw] p-[1vw] bg-white"
     >
       <div className="flex justify-center overflow-hidden rounded-lg items-center p-[1vw] group">
